@@ -2,10 +2,12 @@
   "name": "vue-typer",
   "version": "1.2.0",
   "description": "Vue component that simulates a user typing, selecting, and erasing text.",
-  "main": "dist/vue-typer.min.js",
+  "browser": "dist/vue-typer.min.js",
+  "main": "src/vue-typer/components/VueTyper.vue",
   "files": [
     "dist/vue-typer.js",
-    "dist/vue-typer.min.js"
+    "dist/vue-typer.min.js",
+    "src/vue-typer/**"
   ],
   "scripts": {
     "dev": "NODE_ENV='development' webpack-dev-server --config build/webpack.config.dev.js --hot --inline --open --compress",

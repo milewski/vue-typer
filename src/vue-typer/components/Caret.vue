@@ -1,5 +1,5 @@
-<template lang='pug'>
-span.caret.custom(:class='animationClass')
+<template>
+<span class="caret custom" :class="animationClass"></span>
 </template>
 
 <script>
@@ -25,8 +25,8 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-@import 'typer-colors';
-@import 'caret-animations';
+@import '../styles/typer-colors';
+@import '../styles/caret-animations';
 
 span.caret {
   &:empty:before {

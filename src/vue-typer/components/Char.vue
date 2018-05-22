@@ -1,6 +1,5 @@
-<template lang='pug'>
-span.char(:class="classes")
-  | {{ val }}
+<template>
+<span class="char" :class="classes">{{ val }}</span>
 </template>
 
 <script>
@@ -22,7 +21,7 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-@import 'typer-colors';
+@import '../styles/typer-colors';
 
 .char {
   display: inline-block;
